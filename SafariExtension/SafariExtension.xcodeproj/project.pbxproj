@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		27B2B2E35235B20B3468E18F /* Pods_SafariExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA262D9A80D6213EF18152A /* Pods_SafariExtension.framework */; };
 		61F214D2366E771441E63ED4 /* Pods_SafariExtensionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE23615642D2E953CBDB5F23 /* Pods_SafariExtensionTests.framework */; };
+		7C2285E81ECA856E007A74D4 /* ShareGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2285E71ECA856E007A74D4 /* ShareGroupViewController.swift */; };
+		7C2285EB1ECA91DE007A74D4 /* UrlListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2285EA1ECA91DE007A74D4 /* UrlListViewController.swift */; };
+		7C2285ED1ECA9491007A74D4 /* UrlWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2285EC1ECA9491007A74D4 /* UrlWebViewController.swift */; };
 		7C4054631ECA6E4D00425E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4054621ECA6E4D00425E64 /* AppDelegate.swift */; };
-		7C4054651ECA6E4D00425E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4054641ECA6E4D00425E64 /* ViewController.swift */; };
+		7C4054651ECA6E4D00425E64 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4054641ECA6E4D00425E64 /* GroupViewController.swift */; };
 		7C4054681ECA6E4D00425E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4054661ECA6E4D00425E64 /* Main.storyboard */; };
 		7C40546A1ECA6E4D00425E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C4054691ECA6E4D00425E64 /* Assets.xcassets */; };
 		7C40546D1ECA6E4D00425E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C40546B1ECA6E4D00425E64 /* LaunchScreen.storyboard */; };
@@ -18,6 +21,11 @@
 		7C4054891ECA6E7000425E64 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4054881ECA6E7000425E64 /* ShareViewController.swift */; };
 		7C40548C1ECA6E7000425E64 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C40548A1ECA6E7000425E64 /* MainInterface.storyboard */; };
 		7C4054901ECA6E7000425E64 /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7C4054861ECA6E7000425E64 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7C4054961ECA702000425E64 /* SharedEnteties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4054951ECA702000425E64 /* SharedEnteties.swift */; };
+		7C4054991ECA70EB00425E64 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4054981ECA70EB00425E64 /* Constants.swift */; };
+		7C40549A1ECA756900425E64 /* SharedEnteties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4054951ECA702000425E64 /* SharedEnteties.swift */; };
+		7C40549B1ECA75AA00425E64 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4054981ECA70EB00425E64 /* Constants.swift */; };
+		7C40549D1ECA77F900425E64 /* GetURL.js in Resources */ = {isa = PBXBuildFile; fileRef = 7C40549C1ECA77F900425E64 /* GetURL.js */; };
 		FEA652017471CBB9C21C1B83 /* Pods_ShareExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39CFA65C198792A59417030 /* Pods_ShareExtension.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,9 +64,13 @@
 		0C8DE91C4DB55B1563E44418 /* Pods-SafariExtensionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafariExtensionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafariExtensionTests/Pods-SafariExtensionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		218F4176D1E387472B15079A /* Pods-SafariExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafariExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafariExtension/Pods-SafariExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		466D7E537F1CFBF0A065AB7C /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		7C2285E71ECA856E007A74D4 /* ShareGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareGroupViewController.swift; sourceTree = "<group>"; };
+		7C2285E91ECA8CF0007A74D4 /* ShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareExtension.entitlements; sourceTree = "<group>"; };
+		7C2285EA1ECA91DE007A74D4 /* UrlListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlListViewController.swift; sourceTree = "<group>"; };
+		7C2285EC1ECA9491007A74D4 /* UrlWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlWebViewController.swift; sourceTree = "<group>"; };
 		7C40545F1ECA6E4D00425E64 /* SafariExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4054621ECA6E4D00425E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C4054641ECA6E4D00425E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C4054641ECA6E4D00425E64 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 		7C4054671ECA6E4D00425E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C4054691ECA6E4D00425E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C40546C1ECA6E4D00425E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,6 +82,10 @@
 		7C4054881ECA6E7000425E64 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		7C40548B1ECA6E7000425E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		7C40548D1ECA6E7000425E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C4054951ECA702000425E64 /* SharedEnteties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedEnteties.swift; sourceTree = "<group>"; };
+		7C4054971ECA709100425E64 /* SafariExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariExtension.entitlements; sourceTree = "<group>"; };
+		7C4054981ECA70EB00425E64 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7C40549C1ECA77F900425E64 /* GetURL.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GetURL.js; sourceTree = "<group>"; };
 		828126AA78E7A7FD9BEC3759 /* Pods-ShareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.release.xcconfig"; sourceTree = "<group>"; };
 		8AA262D9A80D6213EF18152A /* Pods_SafariExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafariExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39CFA65C198792A59417030 /* Pods_ShareExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,9 +145,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7C2285EE1ECA9F8A007A74D4 /* SharedCommon */ = {
+			isa = PBXGroup;
+			children = (
+				7C4054951ECA702000425E64 /* SharedEnteties.swift */,
+				7C4054981ECA70EB00425E64 /* Constants.swift */,
+			);
+			name = SharedCommon;
+			sourceTree = "<group>";
+		};
 		7C4054561ECA6E4D00425E64 = {
 			isa = PBXGroup;
 			children = (
+				7C2285EE1ECA9F8A007A74D4 /* SharedCommon */,
 				7C4054611ECA6E4D00425E64 /* SafariExtension */,
 				7C4054761ECA6E4D00425E64 /* SafariExtensionTests */,
 				7C4054871ECA6E7000425E64 /* ShareExtension */,
@@ -154,8 +180,11 @@
 		7C4054611ECA6E4D00425E64 /* SafariExtension */ = {
 			isa = PBXGroup;
 			children = (
+				7C4054971ECA709100425E64 /* SafariExtension.entitlements */,
 				7C4054621ECA6E4D00425E64 /* AppDelegate.swift */,
-				7C4054641ECA6E4D00425E64 /* ViewController.swift */,
+				7C4054641ECA6E4D00425E64 /* GroupViewController.swift */,
+				7C2285EA1ECA91DE007A74D4 /* UrlListViewController.swift */,
+				7C2285EC1ECA9491007A74D4 /* UrlWebViewController.swift */,
 				7C4054661ECA6E4D00425E64 /* Main.storyboard */,
 				7C4054691ECA6E4D00425E64 /* Assets.xcassets */,
 				7C40546B1ECA6E4D00425E64 /* LaunchScreen.storyboard */,
@@ -176,7 +205,10 @@
 		7C4054871ECA6E7000425E64 /* ShareExtension */ = {
 			isa = PBXGroup;
 			children = (
+				7C2285E91ECA8CF0007A74D4 /* ShareExtension.entitlements */,
 				7C4054881ECA6E7000425E64 /* ShareViewController.swift */,
+				7C2285E71ECA856E007A74D4 /* ShareGroupViewController.swift */,
+				7C40549C1ECA77F900425E64 /* GetURL.js */,
 				7C40548A1ECA6E7000425E64 /* MainInterface.storyboard */,
 				7C40548D1ECA6E7000425E64 /* Info.plist */,
 			);
@@ -262,6 +294,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2UD9BYT75P;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					7C4054721ECA6E4D00425E64 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -273,6 +310,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2UD9BYT75P;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -319,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C40548C1ECA6E7000425E64 /* MainInterface.storyboard in Resources */,
+				7C40549D1ECA77F900425E64 /* GetURL.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,8 +495,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C4054651ECA6E4D00425E64 /* ViewController.swift in Sources */,
+				7C2285EB1ECA91DE007A74D4 /* UrlListViewController.swift in Sources */,
+				7C4054961ECA702000425E64 /* SharedEnteties.swift in Sources */,
+				7C4054651ECA6E4D00425E64 /* GroupViewController.swift in Sources */,
+				7C2285ED1ECA9491007A74D4 /* UrlWebViewController.swift in Sources */,
 				7C4054631ECA6E4D00425E64 /* AppDelegate.swift in Sources */,
+				7C4054991ECA70EB00425E64 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +516,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C2285E81ECA856E007A74D4 /* ShareGroupViewController.swift in Sources */,
 				7C4054891ECA6E7000425E64 /* ShareViewController.swift in Sources */,
+				7C40549A1ECA756900425E64 /* SharedEnteties.swift in Sources */,
+				7C40549B1ECA75AA00425E64 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +667,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SafariExtension/SafariExtension.entitlements;
 				DEVELOPMENT_TEAM = 2UD9BYT75P;
 				INFOPLIST_FILE = SafariExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -632,6 +683,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SafariExtension/SafariExtension.entitlements;
 				DEVELOPMENT_TEAM = 2UD9BYT75P;
 				INFOPLIST_FILE = SafariExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -677,6 +729,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 466D7E537F1CFBF0A065AB7C /* Pods-ShareExtension.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
 				DEVELOPMENT_TEAM = 2UD9BYT75P;
 				INFOPLIST_FILE = ShareExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -691,6 +744,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 828126AA78E7A7FD9BEC3759 /* Pods-ShareExtension.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
 				DEVELOPMENT_TEAM = 2UD9BYT75P;
 				INFOPLIST_FILE = ShareExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -720,6 +774,7 @@
 				7C40547E1ECA6E4D00425E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C40547F1ECA6E4D00425E64 /* Build configuration list for PBXNativeTarget "SafariExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -728,6 +783,7 @@
 				7C4054811ECA6E4D00425E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C4054911ECA6E7000425E64 /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
 			isa = XCConfigurationList;
@@ -736,6 +792,7 @@
 				7C4054931ECA6E7000425E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
