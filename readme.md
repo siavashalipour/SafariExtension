@@ -9,7 +9,8 @@ Since the app uses `Cocoapods` first before opening the project please run `pod 
 Since you have changed the `App Groups` name you need to update it in the code as well. Please head to the `SharedCommon` folder in the project navigator and inside the `Constants.swift` file update the `let groupId: String = "to the App Groups name that you just set`. That is all. You now can run the app. You could either choose the extension schema and run it via safari or just run the iOS app and then open up the safari and try to do share. 
 
 #### Note:
-I have also put a demo video of the app working in order you if you had difficulties setting up the environment
+I have also put a demo video of the app working in order you if you had difficulties setting up the environment.
+About prepopulating the `URL` as mentioned in the code, the `TextView` for `SLComposeServiceViewController` is only a get and it gets automatically populated by iOS with URL placeholder so we can't set the URL text to it however we extract the URL string and save it along with any other notes that the user put in the `TextView`
 
 ### What would I have changed if I have more time: 
 
